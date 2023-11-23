@@ -1,0 +1,47 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="mostrarMenu()">
+        <ion-icon slot="icon-only" name="menu-outline" color="primary"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  
+    <ion-title class="titulo">Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title style="color:#3880FF;font-weight: bold;" size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <div *ngIf="estaLogueado()" class="bienvenida-usuario">
+    ¡Hola, {{ obtenerNombreUsuario() }}!
+  </div>
+  <ion-card>
+    <img src="assets/12_logo.png">
+    
+    <ion-card-header class="encabezado">
+      <ion-card-title style="color: #13184D; font-weight: bold;">RegistrAPP</ion-card-title>
+      <ion-card-subtitle style="color: #13184D; font-weight: bold;">Tu lugar de Encuentro</ion-card-subtitle>
+    </ion-card-header>
+
+    <ion-card-content class="contenido">
+
+      <ion-button *ngIf="!estaLogueado()" routerLink="/login" expand="block" color="primary" shape="round" class="ion-padding">
+        Login
+      </ion-button>
+    
+      <ion-button *ngIf="!estaLogueado()" routerLink="/registro" expand="block" color="primary" shape="round" class="ion-padding">
+        Registro
+      </ion-button>
+
+      <ion-button *ngIf="estaLogueado()" style="margin:15px" [routerLink]="['/perfil-docente', numero]"> Perfil</ion-button>
+
+    </ion-card-content>
+      
+  
+  </ion-card>
+ 
+</ion-content>

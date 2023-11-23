@@ -1,0 +1,739 @@
+{
+  "docentes": [
+    {
+      "id": 1,
+      "username": "Machuca",
+      "correo": "gonzalo@gonzalo.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "matematicas",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": "10",
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "horaTotal2": "10",
+      "password": "1234",
+      "confirmarPassword": "1234"
+    },
+    {
+      "id": 2,
+      "username": "Millan",
+      "correo": "pedro@pedro.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "base de datos",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": "10",
+      "asignatura2": "programacion",
+      "anno2": "2023",
+      "horaTotal2": "10",
+      "password": "1234",
+      "confirmarPassword": "1234"
+    },
+    {
+      "id": 3,
+      "username": "chanchito",
+      "correo": "duoc@uc.cl",
+      "role": "profesor",
+      "isactive": true,
+      "asignatura1": "algoritmo",
+      "anno1": "2040",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678"
+    },
+    {
+      "username": "dongatogato",
+      "correo": "donpelotas@duoc.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "fisica",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "calculo",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 4
+    },
+    {
+      "username": "donpericote",
+      "correo": "duoc@uc.cl",
+      "role": "alumno",
+      "isactive": true,
+      "asignatura1": "quimixa",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 10,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 1,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 5
+    },
+    {
+      "username": "rodrigoGallardo",
+      "correo": "roagallardo@gmail.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "fisica",
+      "anno1": "2021",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "quimica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 6
+    },
+    {
+      "username": "GonzaloEsteban1",
+      "correo": "duoc@usach.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "quimica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 7
+    },
+    {
+      "username": "gonzaloGATON1",
+      "correo": "USACH@DUOC.CL",
+      "role": "ESTUDIANTE",
+      "isactive": true,
+      "asignatura1": "QUIMICA",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "ANALISIS",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 8
+    },
+    {
+      "username": "Mauricio1",
+      "correo": "GONZALO@gmail.com",
+      "role": "estudiante",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "quimica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 10,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 9
+    },
+    {
+      "username": "pericote11",
+      "correo": "pericote@duoc.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 10
+    },
+    {
+      "username": "dimitri1",
+      "correo": "dimitri@gato.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "algoritmo",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 11
+    },
+    {
+      "username": "pericoteGato1",
+      "correo": "duoc@gmail.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 12
+    },
+    {
+      "username": "GatoGATO1",
+      "correo": "GATO@USACH.CL",
+      "role": "ALUMNO",
+      "isactive": true,
+      "asignatura1": "FISICA",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "QUIMICA",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 13
+    },
+    {
+      "username": "Penelope1",
+      "correo": "gato@pc.cl",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "quimica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 14
+    },
+    {
+      "username": "Dongato11",
+      "correo": "duoc@uc.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 15
+    },
+    {
+      "username": "Enojada1",
+      "correo": "duoc@gmail.cpm",
+      "role": "docente",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "fisica",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": 20,
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 16
+    }
+  ],
+  "alumnos": [
+    {
+      "id": 1,
+      "username": "GonzaloTroncoso",
+      "nombre": "Gonzalo Esteban",
+      "correo": "gonzalo@gonzalo.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "fisica",
+      "sede": "puente alto",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
+    },
+    {
+      "username": "gonzaladiado",
+      "nombre": "gonzalot",
+      "correo": "gonzalo@duoc.cl",
+      "role": "",
+      "isactive": "true",
+      "carrera": "informatica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 2
+    },
+    {
+      "username": "",
+      "nombre": "",
+      "correo": "",
+      "role": "",
+      "isactive": false,
+      "carrera": "",
+      "sede": "",
+      "password": "",
+      "confirmarPassword": "",
+      "id": 3
+    },
+    {
+      "username": "camaleon",
+      "nombre": "pedro",
+      "correo": "duoc@duoc.cl",
+      "role": "",
+      "isactive": "true",
+      "carrera": "ingenieria",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 4
+    },
+    {
+      "username": null,
+      "nombre": null,
+      "correo": null,
+      "role": "",
+      "isactive": null,
+      "carrera": null,
+      "sede": null,
+      "password": null,
+      "confirmarPassword": null,
+      "id": 5
+    },
+    {
+      "username": "",
+      "nombre": "",
+      "correo": "",
+      "role": "estudiante",
+      "isactive": false,
+      "carrera": "",
+      "sede": "",
+      "password": "",
+      "confirmarPassword": "",
+      "id": 6
+    },
+    {
+      "username": "",
+      "nombre": "",
+      "correo": "",
+      "role": "",
+      "isactive": false,
+      "carrera": "",
+      "sede": "",
+      "password": "",
+      "confirmarPassword": "",
+      "id": 7
+    },
+    {
+      "username": "MARIOBROSS",
+      "nombre": "MARIO",
+      "correo": "MARIOS@BROS.CL",
+      "role": "ESTUDIANTE",
+      "isactive": true,
+      "carrera": "QUIMICA",
+      "sede": "MAIPU",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 8
+    },
+    {
+      "username": "gaton011",
+      "nombre": "charly",
+      "correo": "gato@flojo",
+      "role": "estudiante",
+      "isactive": true,
+      "carrera": "quimixa",
+      "sede": "maupi",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 9
+    },
+    {
+      "username": "MauricioMachuca",
+      "nombre": "maurio",
+      "correo": "machuca@profesor",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 10
+    },
+    {
+      "username": "MauricioMachuca",
+      "nombre": "mauricio",
+      "correo": "duoc@duoc.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 11
+    },
+    {
+      "username": "AlvaroRojas",
+      "nombre": "alvaro",
+      "correo": "alvaro@gorodo.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 12
+    },
+    {
+      "username": "PedroPedro",
+      "nombre": "Pedro",
+      "correo": "Pedro@duoc.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 13
+    },
+    {
+      "username": "Pericote",
+      "nombre": "gonzalo",
+      "correo": "duoc@uce.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 14
+    },
+    {
+      "username": "DonGatito",
+      "nombre": "qeweer",
+      "correo": "usacha@duoc.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 15
+    },
+    {
+      "id": 16,
+      "username": "PEWWEEWFQ",
+      "nombre": "FSASSA",
+      "correo": "DUOC@OOD.CL",
+      "role": "DOCENTE",
+      "isactive": true,
+      "carrera": "QUIMICA",
+      "sede": "MAIPU",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
+    },
+    {
+      "username": "fddqfdfew",
+      "nombre": "cuchoq",
+      "correo": "dswdwww@ded",
+      "role": "estudia ",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "puente",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 17
+    },
+    {
+      "username": "gonzalogonzalo",
+      "nombre": "gonzalo",
+      "correo": "duoc@uc.cl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 18
+    },
+    {
+      "username": "GonzaloTroncoso1",
+      "nombre": "gonzalo",
+      "correo": "duoc@uc.cl",
+      "isactive": true,
+      "carrera": "fisica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 19
+    },
+    {
+      "username": "GONZALO1",
+      "nombre": "GONZALO",
+      "correo": "DUOC@UC.CL",
+      "role": "ESTUDIANTE",
+      "isactive": true,
+      "carrera": "INGENIERIA QUIMICA",
+      "sede": "MAIPU",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 20
+    },
+    {
+      "username": "gatogato1",
+      "nombre": "gonzalo",
+      "correo": "usach@usach.xl",
+      "role": "alumno",
+      "isactive": true,
+      "carrera": "ingenieria",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 21
+    }
+  ],
+  "asistenciaDocentes": [
+    {
+      "id": 1,
+      "asignatura": "matematicas",
+      "username": "Machuqueitor"
+    },
+    {
+      "asignatura": "chanchito forever",
+      "username": "chanchito",
+      "id": 2
+    },
+    {
+      "asignatura": "estoy cansado",
+      "username": "GonzaloTroncoso",
+      "id": 3
+    },
+    {
+      "asignatura": "holis",
+      "username": "GonzaloTroncoso",
+      "id": 4
+    },
+    {
+      "asignatura": "",
+      "username": "GonzaloTroncoso",
+      "id": 5
+    },
+    {
+      "asignatura": "",
+      "username": "GonzaloTroncoso",
+      "id": 6
+    },
+    {
+      "asignatura": "",
+      "username": "GonzaloTroncoso",
+      "id": 7
+    },
+    {
+      "asignatura": "hola como tas",
+      "username": "chanchito",
+      "id": 8
+    },
+    {
+      "asignatura": "gonzalo",
+      "username": "chanchito",
+      "id": 9
+    },
+    {
+      "asignatura": "",
+      "username": "GonzaloTroncoso",
+      "id": 10
+    },
+    {
+      "asignatura": "",
+      "username": "GonzaloTroncoso",
+      "id": 11
+    },
+    {
+      "asignatura": "pasta",
+      "username": "GonzaloTroncoso",
+      "id": 12
+    },
+    {
+      "asignatura": "gonzalo",
+      "username": "rodrigoGallardo",
+      "id": 13
+    },
+    {
+      "asignatura": "asignatura1",
+      "username": "chanchito",
+      "id": 14
+    },
+    {
+      "asignatura": "asignatura2",
+      "username": "chanchito",
+      "id": 15
+    },
+    {
+      "asignatura": "quimica",
+      "username": "chanchito",
+      "id": 16
+    },
+    {
+      "asignatura": "fisica",
+      "username": "chanchito",
+      "id": 17
+    },
+    {
+      "username": "chanchito",
+      "id": 18
+    },
+    {
+      "asignatura": "fisica",
+      "username": "chanchito",
+      "id": 19
+    },
+    {
+      "asignatura": "quimica",
+      "username": "chanchito",
+      "id": 20
+    },
+    {
+      "asignatura": "quimica",
+      "username": "chanchito",
+      "id": 21
+    },
+    {
+      "asignatura": "quimica",
+      "username": "chanchito",
+      "id": 22
+    },
+    {
+      "asignatura": "fisica",
+      "username": "chanchito",
+      "id": 23
+    },
+    {
+      "asignatura": "fisica",
+      "username": "chanchito",
+      "id": 24
+    },
+    {
+      "asignatura": "quimica",
+      "username": "chanchito",
+      "id": 25
+    },
+    {
+      "asignatura": "base de datos",
+      "username": "chanchito",
+      "id": 26
+    },
+    {
+      "asignatura": "base de datos",
+      "username": "chanchito",
+      "id": 27
+    },
+    {
+      "asignatura": "algoritmo",
+      "username": "chanchito",
+      "id": 28
+    },
+    {
+      "asignatura": "algoritmo",
+      "username": "chanchito",
+      "fecha": "2023-11-20T04:12:35.283Z",
+      "id": 29
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "fisica",
+      "fecha": "2023-11-20T04:17:35.992Z",
+      "id": 30
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "algoritmo",
+      "fecha": "2023-11-20T04:32:31.410Z",
+      "id": 31
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "algoritmo",
+      "fecha": "2023-11-22T23:16:30.673Z",
+      "id": 32
+    },
+    {
+      "username": "Enojada1",
+      "asignatura": "quimica",
+      "fecha": "2023-11-23T00:00:29.149Z",
+      "id": 33
+    }
+  ],
+  "asistenciaAlumnos": [
+    {
+      "id": 1,
+      "asignatura": "matematicas",
+      "username": "Machuqueitor"
+    },
+    {
+      "fecha": "2023-11-23T03:23:51.912Z",
+      "id": 2
+    },
+    {
+      "fecha": "2023-11-23T03:35:51.103Z",
+      "id": 3
+    },
+    {
+      "fecha": "2023-11-23T03:36:36.535Z",
+      "id": 4
+    },
+    {
+      "fecha": "2023-11-23T03:38:40.750Z",
+      "id": 5
+    },
+    {
+      "username": "GonzaloTroncoso",
+      "asignatura": "Hola mundo",
+      "fecha": "2023-11-23T03:45:38.130Z",
+      "id": 6
+    },
+    {
+      "username": "GonzaloTroncoso",
+      "asignatura": "http://www.tesupremo.cl",
+      "fecha": "2023-11-23T03:48:42.595Z",
+      "id": 7
+    },
+    {
+      "username": "GonzaloTroncoso",
+      "asignatura": "Hola mundo",
+      "fecha": "2023-11-23T06:13:49.462Z",
+      "id": 8
+    }
+  ]
+}

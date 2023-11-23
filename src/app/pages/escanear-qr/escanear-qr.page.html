@@ -1,0 +1,45 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="start">
+      <!-- Utiliza un botón normal en lugar de ion-back-button -->
+      <ion-button class="volver" (click)="redirigirAPaginaFija()">
+        Volver
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title class="titulo">escanearQr</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">escanearQr</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <!-- For camera -->
+<ngx-scanner-qrcode #action="scanner"></ngx-scanner-qrcode>
+
+<!-- data -->
+<span>{{ action.data.value | json }}</span><!-- value -->
+<span>{{ action.data | async | json }}</span><!-- async -->
+
+  <ul>
+    <ion-button *ngFor="let item of action.data.value" (click)="guardarValor(item)" expand="block" fill="clear" shape="round">
+      presione para registrar asistencia {{ item.value }}
+     </ion-button>
+  </ul>
+
+ 
+
+ 
+<!-- Loading -->
+<p *ngIf="action.isLoading">⌛ Loading...</p>
+
+<!-- start -->
+<button (click)="action.isStart ? action.stop() : action.start()">
+    {{action.isStart ? 'Stop' : 'Start'}}
+</button>
+<p>Valor Guardado: {{ valorGuardado }}</p>
+</ion-content>

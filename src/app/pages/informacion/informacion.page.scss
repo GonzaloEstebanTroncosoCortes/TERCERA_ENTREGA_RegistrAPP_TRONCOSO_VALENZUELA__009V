@@ -1,0 +1,30 @@
+.encabezado{
+    background-color:rgb(219, 232, 235);
+    color: yellow;
+}
+
+.contenido{
+    background-color:rgb(219, 232, 235);
+    color: yellow;
+}
+
+.texto{
+    text-align: justify;
+    color: #4285F4;
+}
+ion-card-header.ios {
+    display: flex;
+    flex-flow: column-reverse;
+  }
+
+.imagen{
+    background-color:#4285F4;
+    color: yellow;
+    border-radius: 10px;
+}
+
+.titulo{
+    color:#3880FF;
+    font-weight: bold;
+}
+

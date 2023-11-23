@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>inicioAlumno</ion-title>
+  </ion-toolbar>
+
+  <ion-buttons slot="start">
+    <!-- Utiliza un botón normal en lugar de ion-back-button -->
+    <ion-button (click)="redirigirAPaginaFija()">
+      Volver
+    </ion-button>
+  </ion-buttons>
+  
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">inicioAlumno</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-button style="margin:15px" [routerLink]="['/perfil-alumno', numero]"> Perfil</ion-button>
+</ion-content>

@@ -1,0 +1,58 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="volver">Perfil Actualizar Alumno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Perfil actualizarAlumno</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <form>
+    
+    <ion-item >
+      <ion-label >Usuario: </ion-label>
+      <ion-input type="text" name="txtUsername" [(ngModel)]="usuario.username" disabled></ion-input>
+    </ion-item> 
+
+    <!--
+      <ion-item>
+      <ion-label position="floating">Password: </ion-label>
+      <ion-input type="password" name="txtPass" [(ngModel)]="usuario.password"></ion-input>
+    </ion-item>
+  -->
+
+  <ion-item>
+    <ion-label position="floating" style="color: green;" >Nombre: </ion-label>
+    <ion-input type="text" name="txtNombre" [(ngModel)]="usuario.nombre"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating"style=" color: green;">Carrera: </ion-label>
+    <ion-input type="text" name="txtCarrera" [(ngModel)]="usuario.carrera"></ion-input>
+  </ion-item>
+
+  <ion-item>
+    <ion-label position="floating" style="color: green;">Sede: </ion-label>
+    <ion-input type="text" name="txtSede" [(ngModel)]="usuario.sede"></ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-label position="floating" style="color: green;">Rol: </ion-label>
+      <ion-select name="txtRole"  [(ngModel)]="usuario.role">
+        <ion-select-option value="alumno">Alumno</ion-select-option>
+        <ion-select-option value="docente">Docente</ion-select-option>
+      </ion-select>
+    </ion-item>
+
+    <ion-row>
+      <ion-col>
+        <ion-button (click)="ActualizarAlumno()">Actualizar Usuario</ion-button>
+        <ion-button style="margin: 15px"[routerLink]="['/salir-alumno']"color="success">salir</ion-button>
+      </ion-col>
+    </ion-row>
+  </form>
+</ion-content>

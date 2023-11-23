@@ -1,0 +1,65 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    
+    <ion-buttons slot="start">
+      <!-- Utiliza un botón normal en lugar de ion-back-button -->
+      <ion-button class="volver" (click)="redirigirAPaginaFija()">
+        Volver
+      </ion-button>
+    </ion-buttons>
+
+    <ion-title class="volver" >Perfil Alumno</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Perfil Alumno</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  <ion-card>
+
+    <ion-item>
+      <ion-label>Usuario: </ion-label>
+      <ion-label>{{ usuario.username }}</ion-label>
+    </ion-item> 
+
+    
+    <ion-item>
+      <ion-label>Correo: </ion-label>
+      <ion-label>{{ usuario.correo }}</ion-label>
+    </ion-item> 
+
+    <ion-item>
+      <ion-label>Rol: </ion-label>
+      <ion-label>{{ usuario.role }}</ion-label>
+    </ion-item> 
+
+    <ion-item>
+      <ion-label>Activo?: </ion-label>
+      <ion-label>{{ usuario.isactive }}</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Carrera: </ion-label>
+      <ion-label>{{ usuario.carrera }}</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-label>Sede: </ion-label>
+      <ion-label>{{ usuario.sede }}</ion-label>
+    </ion-item>
+
+   
+
+    <ion-button style="margin: 15px"[routerLink]="['/perfilactualizar-alumno', usuario.id]"color="warning"> 
+      <ion-icon name="create"></ion-icon> </ion-button>
+
+    <ion-button style="margin: 15px"[routerLink]="['/inicio-alumno']"color="success"> 
+      inicio</ion-button>
+
+  
+  </ion-card>
+
+</ion-content>

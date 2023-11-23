@@ -1,0 +1,38 @@
+<ion-header clas="menu" [translucent]="true">
+  <ion-toolbar>
+
+    <ion-buttons slot="end">
+      <img src="assets/14_logo.png" class="logo">
+    </ion-buttons>
+    <ion-title class="tituloPrincipal">RegistrAPP</ion-title>
+
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Inicio</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-list>                                <!--similar a ul-->
+    <!--similar a li-->
+    <ion-item class="adentro" *ngFor="let c of componentes"
+          [routerLink]="c.redirecTo" detail="true" swipe-gesture="false">   
+          <ion-icon slot="start" [name]="c.icon" style="color: #4CBB17;"></ion-icon>                           
+       {{ c.name }}
+    </ion-item>
+  </ion-list>
+
+
+  <!--
+  <ion-button routerLink="/alert" expand="block"  shape="round">
+    Alert
+  </ion-button>
+
+  <ion-button routerLink="/action-sheet" expand="block" color="success" shape="round">
+    Action Sheet
+  </ion-button>
+  -->
+</ion-content>
