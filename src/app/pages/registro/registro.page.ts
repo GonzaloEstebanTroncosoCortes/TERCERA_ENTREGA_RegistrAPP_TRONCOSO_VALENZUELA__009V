@@ -92,6 +92,7 @@ export class RegistroPage implements OnInit {
       this.apicrud.CrearDocente(this.newUsuario).subscribe(
         response => {
           console.log("Respuesta del servidor:", response);
+          this.registrarForm.reset();
           this.router.navigateByUrl('/inicio-general');
           this.showToast("!!Por favor Inicie seccion!!...");
         },

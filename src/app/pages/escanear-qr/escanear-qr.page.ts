@@ -51,7 +51,7 @@ export class EscanearQrPage implements OnInit {
 async mostrarMensaje(){
   const alerta = await this.alertcontroller.create({
     header: 'Mensaje',
-    message: 'Se ha generado el QR',
+    message: 'Se ha Registrado la Asistencia Exitosamente Gracias.',
     buttons: ['OK']
   });
   alerta.present(); 

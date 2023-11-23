@@ -36,12 +36,12 @@
       "id": 3,
       "username": "chanchito",
       "correo": "duoc@uc.cl",
-      "role": "profesor",
+      "role": "Docente Planta",
       "isactive": true,
       "asignatura1": "algoritmo",
-      "anno1": "2040",
+      "anno1": "2024",
       "semestre1": "1",
-      "horaTotal1": 20,
+      "horaTotal1": "1",
       "asignatura2": "fisica",
       "anno2": "2023",
       "semestre2": 1,
@@ -269,6 +269,23 @@
       "password": "12345678",
       "confirmarPassword": "12345678",
       "id": 16
+    },
+    {
+      "id": 17,
+      "username": "Macarena1",
+      "correo": "duoc@uc.cl",
+      "role": "Docente Honorarios",
+      "isactive": true,
+      "asignatura1": "quimica",
+      "anno1": "2023",
+      "semestre1": "1",
+      "horaTotal1": 20,
+      "asignatura2": "consulta de base de datos",
+      "anno2": "2023",
+      "semestre2": 1,
+      "horaTotal2": "1",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
     }
   ],
   "alumnos": [
@@ -277,7 +294,7 @@
       "username": "GonzaloTroncoso",
       "nombre": "Gonzalo Esteban",
       "correo": "gonzalo@gonzalo.cl",
-      "role": "alumno",
+      "role": "alumno Pregado",
       "isactive": true,
       "carrera": "fisica",
       "sede": "puente alto",
@@ -522,6 +539,66 @@
       "password": "12345678",
       "confirmarPassword": "12345678",
       "id": 21
+    },
+    {
+      "username": "PabloCarero1",
+      "nombre": "pablo",
+      "correo": "pablo@duo.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "carrera": "Ingenieria quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 22
+    },
+    {
+      "username": "MariaPaz1",
+      "nombre": "maria",
+      "correo": "maria@duoc.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "carrera": "ingenieria quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678",
+      "id": 23
+    },
+    {
+      "id": 24,
+      "username": "MauricioCortes1",
+      "nombre": "Mauro",
+      "correo": "mauro@duoc.cl",
+      "role": "estudiante",
+      "isactive": true,
+      "carrera": "ingenieria fisica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
+    },
+    {
+      "id": 25,
+      "username": "PedroTroncoso1",
+      "nombre": "marco",
+      "correo": "gonzalo@duoc.cl",
+      "role": "alumno Pregado",
+      "isactive": true,
+      "carrera": "ingenieria quimica",
+      "sede": "maipu",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
+    },
+    {
+      "id": 26,
+      "username": "Mauricio1",
+      "nombre": "mau",
+      "correo": "mau@duoc.cl",
+      "role": "alumno Pregado",
+      "isactive": true,
+      "carrera": "ingenieria fisica",
+      "sede": "quilicura",
+      "password": "12345678",
+      "confirmarPassword": "12345678"
     }
   ],
   "asistenciaDocentes": [
@@ -693,6 +770,36 @@
       "asignatura": "quimica",
       "fecha": "2023-11-23T00:00:29.149Z",
       "id": 33
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "fisica",
+      "fecha": "2023-11-23T13:29:36.772Z",
+      "id": 34
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "fisica",
+      "fecha": "2023-11-23T14:48:32.420Z",
+      "id": 35
+    },
+    {
+      "username": "chanchito",
+      "asignatura": "algoritmo",
+      "fecha": "2023-11-23T15:53:29.130Z",
+      "id": 36
+    },
+    {
+      "username": "Macarena1",
+      "asignatura": "consulta de base de datos",
+      "fecha": "2023-11-23T15:57:14.229Z",
+      "id": 37
+    },
+    {
+      "username": "Macarena1",
+      "asignatura": "quimica",
+      "fecha": "2023-11-23T15:58:51.772Z",
+      "id": 38
     }
   ],
   "asistenciaAlumnos": [
@@ -734,6 +841,36 @@
       "asignatura": "Hola mundo",
       "fecha": "2023-11-23T06:13:49.462Z",
       "id": 8
+    },
+    {
+      "username": "MauricioCortes1",
+      "asignatura": "http://commons.wikimedia.org/",
+      "fecha": "2023-11-23T13:07:37.928Z",
+      "id": 9
+    },
+    {
+      "username": "MauricioCortes1",
+      "asignatura": "http://commons.wikimedia.org/",
+      "fecha": "2023-11-23T13:26:14.692Z",
+      "id": 10
+    },
+    {
+      "username": "PedroTroncoso1",
+      "asignatura": "http://commons.wikimedia.org/",
+      "fecha": "2023-11-23T14:17:20.104Z",
+      "id": 11
+    },
+    {
+      "username": "GonzaloTroncoso",
+      "asignatura": "https://juancarlosnieto.com/",
+      "fecha": "2023-11-23T14:54:51.055Z",
+      "id": 12
+    },
+    {
+      "username": "Mauricio1",
+      "asignatura": "consulta de base de datos",
+      "fecha": "2023-11-23T16:02:17.714Z",
+      "id": 13
     }
   ]
 }

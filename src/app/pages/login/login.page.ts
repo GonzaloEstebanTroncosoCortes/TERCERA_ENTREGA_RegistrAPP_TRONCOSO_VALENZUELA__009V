@@ -244,7 +244,7 @@ login(){
   async mostrarAlertaYaAutenticado() {
     const alerta = await this.alertcontroller.create({
       header: "Sesión Activa",
-      message: "Ya has iniciado sesión. No es necesario que te autentiques de nuevo. ¿Deseas ir al inicio?",
+      message: "Ya has iniciado sesión. desera cerrar secion. ¿Deseas cerrar seccion?",
       buttons: [
         {
           text: 'Cancelar',

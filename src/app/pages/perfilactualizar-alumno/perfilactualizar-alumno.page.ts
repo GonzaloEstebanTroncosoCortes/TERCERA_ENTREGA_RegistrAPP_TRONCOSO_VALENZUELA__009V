@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { AuthService } from 'src/app/servicios/auth.service';
 import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
+import { Location } from '@angular/common';
 
 @Component({
   selector: 'app-perfilactualizar-alumno',
@@ -25,7 +26,8 @@ export class PerfilactualizarAlumnoPage implements OnInit {
 
   constructor(private authService: AuthService,
               private router: Router, 
-              private alertcontroller: AlertController) { }
+              private alertcontroller: AlertController,
+              private location: Location) { }
 
   ngOnInit() {
   }
@@ -74,5 +76,8 @@ export class PerfilactualizarAlumnoPage implements OnInit {
     alerta.present();
   }
 
-
+  goBack() {
+    this.location.back();
+  }
+  
 }

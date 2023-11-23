@@ -1,6 +1,6 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>inicioAlumno</ion-title>
+    <ion-title>Inicio Alumno</ion-title>
   </ion-toolbar>
 
   <ion-buttons slot="start">
@@ -15,9 +15,24 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">inicioAlumno</ion-title>
+      <ion-title size="large">Inicio Alumno</ion-title>
     </ion-toolbar>
   </ion-header>
+  <div *ngIf="estaLogueado()" class="bienvenida-usuario">
+    ¡Hola alumno , {{ obtenerNombreUsuario() }}!
+  </div>
+  <ion-card>
+    <img src="assets/03gif.gif" class="ion-padding imagen" width="400" height="400" style="display: block; margin-left: auto; margin-right: auto;">
+    <ion-card-header class="encabezado">
+      <ion-card-subtitle style="color: blue; font-weight: bold;">¡Facil y intuitiva!</ion-card-subtitle>
+    </ion-card-header>
 
-  <ion-button style="margin:15px" [routerLink]="['/perfil-alumno', numero]"> Perfil</ion-button>
+    <ion-card-content class="contenido">
+      <p class="texto">
+        Aquí podrás ver cómo puedes interactuar con la aplicación. Solo tienes que ir mirando las diferentes opciones y funciones disponibles para sacar el máximo provecho de ella.
+      </p>
+    </ion-card-content>
+    <ion-button style="margin:15px" [routerLink]="['/perfil-alumno', numero]"> Perfil</ion-button>
+  </ion-card>
+  
 </ion-content>

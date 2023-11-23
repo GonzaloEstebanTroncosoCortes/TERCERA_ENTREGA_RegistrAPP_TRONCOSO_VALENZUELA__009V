@@ -87,16 +87,17 @@ export class RegistrarAlumnoPage implements OnInit {
       
           this.apicrud.CrearAlumno(this.newAlumno).subscribe();
           this.registroAlumnoForm.reset();
+          this.router.navigateByUrl('/inicio-general');
           this.mostrarMensaje();
-          sessionStorage.setItem('username', this.newAlumno.username);
-          sessionStorage.setItem('nombre', this.newAlumno.nombre);
-          sessionStorage.setItem('correo', this.newAlumno.correo);
-          sessionStorage.setItem('role', this.newAlumno.role);
-          sessionStorage.setItem('ingresado', 'true');
-          sessionStorage.setItem('carrera', this.newAlumno.carrera);
-          sessionStorage.setItem('sede', this.newAlumno.sede);
-          this.showToast("Sesión iniciada correctamente...");
-          this.router.navigate(['/inicio-alumno']);
+          //sessionStorage.setItem('username', this.newAlumno.username);
+          //sessionStorage.setItem('nombre', this.newAlumno.nombre);
+          //sessionStorage.setItem('correo', this.newAlumno.correo);
+          //sessionStorage.setItem('role', this.newAlumno.role);
+          //sessionStorage.setItem('ingresado', 'true');
+          //sessionStorage.setItem('carrera', this.newAlumno.carrera);
+          //sessionStorage.setItem('sede', this.newAlumno.sede);
+          //this.showToast("Sesión iniciada correctamente...");
+          //this.router.navigate(['/inicio-alumno']);
         }
       })
     } 
@@ -105,7 +106,7 @@ export class RegistrarAlumnoPage implements OnInit {
   async mostrarMensaje(){
     const alert = await this.alertcontroller.create({
       header: 'Registro Exitoso',
-      message: 'El alumno ha sido registrado exitosamente',
+      message: 'El alumno ha sido registrado exitosamente Porfavor Inicie Seccion',
       buttons: ['OK']
     });
     await alert.present();

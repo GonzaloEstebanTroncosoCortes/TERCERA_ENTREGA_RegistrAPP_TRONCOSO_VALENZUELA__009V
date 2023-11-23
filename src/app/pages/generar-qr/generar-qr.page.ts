@@ -27,7 +27,7 @@ export class GenerarQrPage implements OnInit {
               private apicrudService: ApicrudService,
               private alertcontroller: AlertController,
               private router: Router) {
-    this.mensaje = "Hola mundo";
+    this.mensaje = "DUOC UC";
     this.nombre = sessionStorage.getItem('username');
     
    }
@@ -51,7 +51,7 @@ export class GenerarQrPage implements OnInit {
   async mostrarMensaje(){
     const alerta = await this.alertcontroller.create({
       header: 'Mensaje',
-      message: 'Se ha generado el QR',
+      message: 'Se ha generado el QR y, Se ha Registrado Su Asistencia Exitosamente Gracias.',
       buttons: ['OK']
     });
     alerta.present(); 
